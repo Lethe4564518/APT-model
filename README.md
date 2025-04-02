@@ -45,17 +45,17 @@
 
 ## 使用說明
 1. 資料準備：
-   - 確保 `data.csv` 檔案與 `APT model.py` 在同一資料夾
+   - 確保 `data.csv` 檔案與 `APT-model.py` 在同一資料夾
 
 2. 執行程式：
    ```bash
    # 方法一：直接在終端機執行
    cd "程式所在資料夾路徑"    # 切換到程式所在資料夾
-   python APT model.py
+   python APT-model.py
 
    # 方法二：在 IDE 中執行
    # - 使用 VSCode、PyCharm 等 IDE
-   # - 開啟 APT model.py 並執行
+   # - 開啟 APT-model.py 並執行
    ```
 
 3. 執行過程：
@@ -79,7 +79,7 @@
    - 如果出現版本相容性問題，請參考開發環境說明
 
 ## 檔案結構
-- `APT model.py`: 主程式檔案
+- `APT-model.py`: 主程式檔案
 - `data.csv`: 股票資料檔案
 - `README.md`: 說明文件
 
