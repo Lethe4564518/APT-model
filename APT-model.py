@@ -9,13 +9,13 @@ import time
 
 start_time = time.time()
 
-## 嘗試取得當前 HW3.py 檔案的路徑並確保其與 data.csv 在同一資料夾
+## 嘗試取得當前 APT-model.py 檔案的路徑並確保其與 data.csv 在同一資料夾
 try:
     current_folder = os.path.dirname(os.path.abspath(__file__))
     data_path = os.path.join(current_folder, "data.csv")
     
     if not os.path.exists(data_path):
-        raise FileNotFoundError(f"找不到文件: {data_path}，請確認 {data_path} 是否與 HW3.py 在同一資料夾")
+        raise FileNotFoundError(f"找不到文件: {data_path}，請確認 {data_path} 是否與 APT-model.py 在同一資料夾")
         
     with open(data_path, 'r', encoding='utf-8') as file:
         data = pd.read_csv(file)
